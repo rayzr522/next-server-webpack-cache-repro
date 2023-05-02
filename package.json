@@ -1,0 +1,7 @@
+{
+  "name": "test-monorepo",
+  "private": true,
+  "scripts": {
+    "test": "rm -rf apps/demo-app/.next packages/test/dist && pnpm run --filter 'test-package' 'build' && pnpm run --filter 'demo-app' build"
+  }
+}

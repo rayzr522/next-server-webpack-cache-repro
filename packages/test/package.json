@@ -1,0 +1,18 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "next": "13.3.4",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "next": "13.3.4"
+  }
+}
